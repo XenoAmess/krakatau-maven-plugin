@@ -24,7 +24,7 @@
             <plugin>
                 <groupId>com.xenoamess</groupId>
                 <artifactId>krakatau-maven-plugin</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
+                <version>0.0.1</version>
                 <executions>
                     <execution>
                         <goals>
