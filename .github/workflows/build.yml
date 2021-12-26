@@ -42,9 +42,9 @@ jobs:
           distribution: adopt
       - name: Build with mvn
         run: |
-        mvn install
-        cd ./test_repos
-        cd ./test0000
-        mvn install
-        cd ..
-        cd ..
+          - mvn install
+          - cd ./test_repos
+          - cd ./test0000
+          - mvn install
+          - cd ..
+          - cd ..
