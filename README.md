@@ -17,7 +17,7 @@ Use [krakatau_java_wrapper](https://github.com/XenoAmess/Krakatau_java_wrapper) 
          <plugin>
              <groupId>com.xenoamess</groupId>
              <artifactId>krakatau-maven-plugin</artifactId>
-             <version>0.0.1</version>
+             <version>0.0.2-SNAPSHOT</version>
              <executions>
                  <execution>
                      <goals>

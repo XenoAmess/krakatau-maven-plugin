@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.xenoamess.remove-unused-imports-maven-plugin</groupId>
     <artifactId>test0000</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>${project.artifactId}</name>
 
@@ -24,7 +24,7 @@
             <plugin>
                 <groupId>com.xenoamess</groupId>
                 <artifactId>krakatau-maven-plugin</artifactId>
-                <version>0.0.1</version>
+                <version>${project.version}</version>
                 <executions>
                     <execution>
                         <goals>
