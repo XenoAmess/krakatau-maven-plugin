@@ -1,0 +1,103 @@
+.version 52 0
+.class public super [5]
+.super [6]
+.field private static [7] [8]
+
+.method public [9] : [10]
+    .attribute [11] .code stack 1 locals 1
+L0:     aload_0
+L1:     invokespecial [1]
+L4:     return
+L5:
+        .attribute [12] .linenumbertable
+            L0 8
+        .end linenumbertable
+        .attribute [13] .localvariabletable
+            0 is [14] [15] from L0 to L5
+        .end localvariabletable
+    .end code
+.end method
+
+.method public static [16] : [17]
+    .attribute [11] .code stack 2 locals 4
+L0:     bipush 11
+L2:     istore_1
+L3:     bipush 12
+L5:     istore_2
+L6:     iload_1
+L7:     iload_2
+L8:     iadd
+L9:     istore_3
+L10:    getstatic [2]
+L13:    iload_3
+L14:    invokevirtual [3]
+L17:    return
+L18:
+        .attribute [12] .linenumbertable
+            L0 13
+            L3 14
+            L6 15
+            L10 16
+            L17 17
+        .end linenumbertable
+        .attribute [13] .localvariabletable
+            0 is [18] [19] from L0 to L18
+            1 is [20] [8] from L3 to L18
+            2 is [21] [8] from L6 to L18
+            3 is [22] [8] from L10 to L18
+        .end localvariabletable
+    .end code
+.end method
+
+.method static [23] : [10]
+    .attribute [11] .code stack 1 locals 0
+L0:     iconst_1
+L1:     putstatic [4]
+L4:     return
+L5:
+        .attribute [12] .linenumbertable
+            L0 10
+        .end linenumbertable
+    .end code
+.end method
+.attribute [24] .sourcefile [25]
+.const [1] = Method [6] [26]
+.const [2] = Field [27] [28]
+.const [3] = Method [29] [30]
+.const [4] = Field [5] [31]
+.const [5] = Class [32]
+.const [6] = Class [33]
+.const [7] = Utf8 version
+.const [8] = Utf8 I
+.const [9] = Utf8 <init>
+.const [10] = Utf8 ()V
+.const [11] = Utf8 Code
+.const [12] = Utf8 LineNumberTable
+.const [13] = Utf8 LocalVariableTable
+.const [14] = Utf8 this
+.const [15] = Utf8 Lcom/xenoamess/maven/plugin/krakatau_maven_plugin/test/test0000/Test;
+.const [16] = Utf8 main
+.const [17] = Utf8 ([Ljava/lang/String;)V
+.const [18] = Utf8 args
+.const [19] = Utf8 [Ljava/lang/String;
+.const [20] = Utf8 a
+.const [21] = Utf8 b
+.const [22] = Utf8 c
+.const [23] = Utf8 <clinit>
+.const [24] = Utf8 SourceFile
+.const [25] = Utf8 'Test.java'
+.const [26] = NameAndType [9] [10]
+.const [27] = Class [34]
+.const [28] = NameAndType [35] [36]
+.const [29] = Class [37]
+.const [30] = NameAndType [38] [39]
+.const [31] = NameAndType [7] [8]
+.const [32] = Utf8 com/xenoamess/maven/plugin/krakatau_maven_plugin/test/test0000/Test
+.const [33] = Utf8 java/lang/Object
+.const [34] = Utf8 java/lang/System
+.const [35] = Utf8 out
+.const [36] = Utf8 Ljava/io/PrintStream;
+.const [37] = Utf8 java/io/PrintStream
+.const [38] = Utf8 println
+.const [39] = Utf8 (I)V
+.end class
