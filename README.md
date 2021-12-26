@@ -31,8 +31,8 @@ Use [krakatau_java_wrapper](https://github.com/XenoAmess/Krakatau_java_wrapper) 
 </build>
 ```
 
-2. write your krakatau codes template.
-put krakatau sources template code into `<sourceDirectory>`
+2. write your krakatau source codes.
+put krakatau source codes into `<sourceDirectory>`
 
 3. mvn compile and get the result.
 
